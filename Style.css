@@ -1,0 +1,136 @@
+:root {
+--very-dark-magneta:hsla(300, 53%, 22%, 0.9);
+--soft-pink:hsl(333, 80%, 67%);
+--dark-grayish-magneta: hsl(303, 10%, 53%);
+--light-grayish-magneta: hsl(300, 24%, 96%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-size: 15px;
+    font-family: "spartan",sans-serif;
+
+   
+}
+.wrapper {
+     display: wrap;
+    justify-items: center;
+    padding: 30px ;
+}
+.wrapper .title p {
+    color: var(--dark-grayish-magneta);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+
+.rating-container {
+   display: WRAP;
+   text-align: center;
+   margin-bottom: 30px;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+
+}
+.rating-container .rate-1, .rate-2, .rate-3 {
+background-color: var(--light-grayish-magneta);
+margin: 10px;
+fill: var(--light-grayish-magneta);
+border-radius: 10px;
+}
+.stars1, .stars2,.stars3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.text {
+    margin-top: 10px;
+    color: var(--very-dark-magneta);
+    font-weight: 700;
+    font-family: "spartan", sans-serif;
+}
+.cards {
+  background-color: auto;
+  display: grid;
+  justify-content: space-around;  
+}
+.cards .colton-card,.Irene-card,.Anne-card {
+    background-color: hsla(300, 63%, 22%,0.94);
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+
+.colton-text,.Irene-text,.Anne-text,.colton-span {
+color: var(--light-grayish-magneta);
+padding-bottom: 40px;
+line-height: 30px;
+
+}
+.colton-p {
+    color :var(--light-grayish-magneta);
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+.cards .colton-card .colton-text .verified {
+    color: green;
+}
+.verified {
+    color:var(--soft-pink);
+    padding-top: 50px;
+}
+
+.colton-pink {
+    color: var(--soft-pink);
+}
+.verified,.colton-pink,.colton-span,.Irene-span,.Anne-span {
+position: relative;
+left: 100px;
+bottom: 40px;
+margin-bottom: 60px;
+
+
+}
+.colton-span {
+    color: white;
+
+}
+img {
+    border-radius: 100%;
+    width: 50px;
+    padding-top: 60px;
+    margin-bottom: -20px;
+    
+
+    
+}
+
+.wrapper .title h1 {
+    color: var(--very-dark-magneta) ;
+} 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media only screen and  (min-width:400px) {
+      wrapper {
+          margin: 0;
+          padding: 0;
+      }
+      .top-wrapper {
+     display: flex;
+     padding-left: 50px;
+  }
+  }
